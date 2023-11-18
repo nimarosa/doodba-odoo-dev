@@ -1,0 +1,19 @@
+name: Build image to registry
+on: push
+jobs:
+  build-image:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+        name: Check out code
+      - uses: mr-smithers-excellent/docker-build-push@v5
+        name: Build & push Docker image
+        with:
+          image: nimarosa/odoo16-dev
+          tags: ${{ secrets.ODOO_VERSION }}.1.0.0, latest # Here we can change the version number of the images. Please increment it every build.
+          registry: ghcr.io
+          dockerfile: odoo/Dockerfile
+          directory: ./odoo
+          buildArgs: ODOO_VERSION="${{ secrets.ODOO_VERSION }}"
+          username: ${{ github.actor }}
+          password: ${{ secrets.GITHUB_TOKEN }}
