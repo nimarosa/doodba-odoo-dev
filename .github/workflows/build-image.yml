@@ -14,6 +14,6 @@ jobs:
           registry: ghcr.io
           dockerfile: odoo/Dockerfile
           directory: ./odoo
-          buildArgs: ODOO_VERSION="${{ secrets.ODOO_VERSION }}"
+          buildArgs: ODOO_VERSION=16.0
           username: ${{ github.actor }}
           password: ${{ secrets.GITHUB_TOKEN }}
