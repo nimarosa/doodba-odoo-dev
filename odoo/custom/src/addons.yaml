@@ -1,0 +1,186 @@
+# OCA Repositories
+stock-logistics-warehouse:
+  - "*"
+partner-contact:
+  - "*"
+wms:
+  - "*"
+web:
+  - "*"
+bank-payment:
+  - "*"
+edi:
+  - "*"
+project:
+  - "*"
+field-service:
+  - "*"
+product-attribute:
+  - "*"
+manufacture:
+  - "*"
+delivery-carrier:
+  - "*"
+product-pack:
+  - "*"
+timesheet:
+  - "*"
+server-tools:
+  - "*"
+geospatial:
+  - "*"
+stock-logistics-orderpoint:
+  - "*"
+server-auth:
+  - "*"
+stock-logistics-workflow:
+  - "*"
+sale-promotion:
+  - "*"
+account-financial-tools:
+  - "*"
+agreement:
+  - "*"
+account-invoicing:
+  - "*"
+server-ux:
+  - "*"
+pos:
+  - "*"
+account-analytic:
+  - "*"
+queue:
+  - "*"
+purchase-workflow:
+  - "*"
+commission:
+  - "*"
+dms:
+  - "*"
+stock-logistics-barcode:
+  - "*"
+rma:
+  - "*"
+sale-workflow:
+  - "*"
+contract:
+  - "*"
+hr-expense:
+  - "*"
+reporting-engine:
+  - "*"
+knowledge:
+  - "*"
+rest-framework:
+  - "*"
+calendar:
+  - "*"
+infrastructure:
+  - "*"
+bank-statement-import:
+  - "*"
+account-fiscal-rule:
+  - "*"
+mis-builder:
+  - "*"
+report-print-send:
+  - "*"
+helpdesk:
+  - "*"
+stock-logistics-reporting:
+  - "*"
+management-system:
+  - "*"
+pms:
+  - "*"
+social:
+  - "*"
+brand:
+  - "*"
+crm:
+  - "*"
+hr:
+  - "*"
+account-invoice-reporting:
+  - "*"
+credit-control:
+  - "*"
+product-variant:
+  - "*"
+repair:
+  - "*"
+maintenance:
+  - "*"
+storage:
+  - "*"
+operating-unit:
+  - "*"
+margin-analysis:
+  - "*"
+account-financial-reporting:
+  - "*"
+hr-attendance:
+  - "*"
+account-closing:
+  - "*"
+fleet:
+  - "*"
+account-reconcile:
+  - "*"
+survey:
+  - "*"
+e-commerce:
+  - "*"
+multi-company:
+  - "*"
+connector:
+  - "*"
+hr-holidays:
+  - "*"
+connector-interfaces:
+  - "*"
+currency:
+  - "*"
+website:
+  - "*"
+event:
+  - "*"
+sale-reporting:
+  - "*"
+spreadsheet:
+  - "*"
+server-backend:
+  - "*"
+payroll:
+  - "*"
+connector-telephony:
+  - "*"
+account-payment:
+  - "*"
+stock-logistics-transport:
+  - "*"
+server-env:
+  - "*"
+search-engine:
+  - "*"
+business-requirement:
+  - "*"
+account-budgeting:
+  - "*"
+mis-builder-contrib:
+  - "*"
+sign:
+  - "*"
+stock-logistics-interfaces:
+  - "*"
+stock-logistics-availability:
+  - "*"
+server-brand:
+  - "*"
+purchase-reporting:
+  - "*"
+
+# Localizacion Argentina - OCA
+l10n-argentina:
+  - "*"
+# Localizacion Argentina Payroll

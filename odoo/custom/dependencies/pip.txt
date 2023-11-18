@@ -1,0 +1,11 @@
+git+https://github.com/OCA/openupgradelib.git@master
+unicodecsv
+unidecode
+
+# pyafipws
+cryptography==3.4.7
+httplib2==0.20.4
+pyOpenSSL
+future==0.18.3
+git+https://github.com/pysimplesoap/pysimplesoap@stable_py3k
+git+https://github.com/reingart/pyafipws@main
