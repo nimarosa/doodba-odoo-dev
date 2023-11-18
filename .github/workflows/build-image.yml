@@ -10,7 +10,7 @@ jobs:
         name: Build & push Docker image
         with:
           image: nimarosa/odoo16-dev
-          tags: ${{ secrets.ODOO_VERSION }}.1.0.0, latest # Here we can change the version number of the images. Please increment it every build.
+          tags: 16.0.1.0.0, latest # Here we can change the version number of the images. Please increment it every build.
           registry: ghcr.io
           dockerfile: odoo/Dockerfile
           directory: ./odoo
